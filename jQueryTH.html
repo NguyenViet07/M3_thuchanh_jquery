@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#co").click(function() {
+                $("p").hide();
+                alert("Chào thằng ngu");
+            });
+            $("#khong").click(function () {
+                $("p").show();
+                alert("Không phải đâu, mày ngu đó");
+            });
+        });
+    </script>
+</head>
+<body>
+<p>Bạn có ngu không?</p>
+<button id="co" >Có</button>
+<button id="khong" >Không</button>
+
+</body>
+</html>
